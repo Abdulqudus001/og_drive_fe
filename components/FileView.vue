@@ -30,7 +30,13 @@
       class="py-10"
     >
       <Loader v-if="loadingDetails" />
-      <v-layout v-else column justify-center align-center class="fill-height">
+      <v-layout
+        v-else
+        column
+        justify-center
+        align-center
+        class="fill-height mx-0 px-2"
+      >
         <img :src="fileDetails.icon" alt="" width="100px" />
         <ul class="px-4 file-details">
           <li class="my-2">

@@ -18,7 +18,7 @@
         column
         justify-space-between
         align-center
-        class="fill-height"
+        class="fill-height mx-0 px-2"
       >
         <img :src="fileDetails.icon" alt="" width="100px" />
         <ul class="pl-0 file-details">
