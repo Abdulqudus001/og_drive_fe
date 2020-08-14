@@ -11,7 +11,7 @@
             .map(function (x) {
               return x._id;
             })
-            .indexOf(item._id)
+            .indexOf(item._id) + 1
         }}</span>
       </template>
       <template v-slot:item.title="{ item }">

@@ -368,11 +368,11 @@ export default {
         text: 'Drive',
         to: `/admin/user/${v.$route.params.id}`,
       },
-      // {
-      //   icon: 'mdi-account-multiple-outline',
-      //   text: 'Shared with this User',
-      //   to: '#',
-      // },
+      {
+        icon: 'mdi-account-multiple-outline',
+        text: 'Shared with this User',
+        to: `/admin/shared/${v.$route.params.id}`,
+      },
       {
         icon: 'mdi-clock-outline',
         text: 'Recent',
